@@ -16,7 +16,7 @@ def summation(actions, weights):
 
 if __name__ == "__main__":
     # problem space.
-    actions = [.4, .3, .3]
-    weights = [.43, .65, .15]
+    actions = [.4, .3, .3, .01]
+    weights = [.43, .65, .15, .34]
 
     print(summation(actions, weights))
