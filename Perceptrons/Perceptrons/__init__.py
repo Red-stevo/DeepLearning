@@ -16,6 +16,9 @@ class MLP:
 
         layers = [self.input_neurons] + self.hidden_layers + [self.output_neurons]
 
+        for i in layers:
+            print(i)
+
 
 if __name__ == "__main__":
     MLP()
