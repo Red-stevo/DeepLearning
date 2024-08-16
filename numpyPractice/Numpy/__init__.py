@@ -17,10 +17,15 @@ def matrix_multiplication():
     arr1 = np.random.randn(3, 4)
     arr2 = np.random.randn(4, 2)
 
-    print(f"Dot product{arr1} X {arr2} =  {np.dot(arr1, arr2)}")
+    print(f"matrix multiplication {arr1} X {arr2} =  {np.dot(arr1, arr2)}")
 
 
-def
+def dot_procuct():
+    arr1 = np.array([1, 2, 3, 5, 6, 3])
+    arr2 = np.array([19, 23, 54, 5, 7, 12, ])
+
+    print(f"Dot Product {np.dot(arr2, arr1)}")
+
 
 if __name__ == "__main__":
     # create_array()
