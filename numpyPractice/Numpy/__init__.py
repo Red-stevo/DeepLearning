@@ -13,13 +13,15 @@ def create_array():
     print(f"two dimensional array {arr}")
 
 
-def dot_product():
+def matrix_multiplication():
     arr1 = np.random.randn(3, 4)
     arr2 = np.random.randn(4, 2)
 
-    print(f"Dot product {np.dot(arr1, arr2)}")
+    print(f"Dot product{arr1} X {arr2} =  {np.dot(arr1, arr2)}")
 
+
+def
 
 if __name__ == "__main__":
     # create_array()
-    dot_product()
+    matrix_multiplication()
