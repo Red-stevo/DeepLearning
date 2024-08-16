@@ -20,7 +20,7 @@ def matrix_multiplication():
     print(f"matrix multiplication {arr1} X {arr2} =  {np.dot(arr1, arr2)}")
 
 
-def dot_procuct():
+def dot_product():
     arr1 = np.array([1, 2, 3, 5, 6, 3])
     arr2 = np.array([19, 23, 54, 5, 7, 12, ])
 
@@ -29,4 +29,5 @@ def dot_procuct():
 
 if __name__ == "__main__":
     # create_array()
-    matrix_multiplication()
+    # matrix_multiplication()
+    dot_product()
