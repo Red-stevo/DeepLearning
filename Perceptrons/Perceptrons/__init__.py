@@ -1,4 +1,4 @@
-import numpy
+import numpy as np
 
 
 # Neuro network, Perceptron neuro network.
@@ -14,10 +14,16 @@ class MLP:
         self.hidden_layers = hidden_layers
         self.output_neurons = output_neurons
 
-        layers = [self.input_neurons] + self.hidden_layers + [self.output_neurons]
+        # Neurons in the perceptron
+        self.layers = [self.input_neurons] + self.hidden_layers + [self.output_neurons]
 
-        for i in layers:
+        # initialize the list to store the weights for each layer
+        self.weights = []
+
+        for i in range(len(self.layers) - 1):
+            self.weights.append(np.random.rand(self.layers[i], self.layers[i + 1]))
             print(i)
+            print(self.weights)
 
 
 if __name__ == "__main__":
