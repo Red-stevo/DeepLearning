@@ -2,7 +2,6 @@ import numpy as np
 
 
 # Neuro network, Perceptron neuro network.
-
 class MLP:
 
     def __init__(self, input_neurons=3, hidden_layers=None, output_neurons=1):
@@ -24,6 +23,9 @@ class MLP:
             self.weights.append(np.random.rand(self.layers[i], self.layers[i + 1]))
             print(i)
             print(self.weights)
+
+    def matrix_multiplication(self, inputs):
+        pass
 
 
 if __name__ == "__main__":
